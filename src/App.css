@@ -1,0 +1,57 @@
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
+h1 {
+  color: purple;
+  margin-bottom: 20px;
+}
+
+.section {
+  display: flex;
+  
+  justify-content: center;
+  margin: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+p {
+  color: red;
+}
